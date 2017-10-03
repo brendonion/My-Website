@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  @include flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: $navbar-height;
+  background: $main-highlight;
+
+  hr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: 5px solid $secondary-highlight;
+    box-shadow: $box-shadow-glow;
+  }
+
+  .section-header {
+    @include flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+
+    button {
+      margin: 0 1rem;
+      color: white;
+      font-size: 1rem;
+      font-weight: 300;
+      border: none;
+      background: none;
+    }
+  }
+}

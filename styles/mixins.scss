@@ -1,0 +1,108 @@
+$mobile-width: 500px;
+$tablet-width: 768px;
+$large-width: 1024px;
+$desktop-width: 75em;
+$x-large-width: 90em;
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (max-width: #{$large-width}) {
+    @content;
+  }
+}
+
+@mixin only-large {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin desktop-width {
+  @media (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin x-large {
+  @media (min-width: #{$x-large-width}) {
+    @content;
+  }
+}
+
+@mixin flex() {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin border-top-right-radius($radius) {
+  -webkit-border-top-right-radius: $radius;
+     -moz-border-top-right-radius: $radius;
+      -ms-border-top-right-radius: $radius;
+          border-top-right-radius: $radius;
+}
+
+@mixin border-top-left-radius($radius) {
+  -webkit-border-top-left-radius: $radius;
+     -moz-border-top-left-radius: $radius;
+      -ms-border-top-left-radius: $radius;
+          border-top-left-radius: $radius;
+}
+
+@mixin border-bottom-left-radius($radius) {
+  -webkit-border-bottom-left-radius: $radius;
+     -moz-border-bottom-left-radius: $radius;
+      -ms-border-bottom-left-radius: $radius;
+          border-bottom-left-radius: $radius;
+}
+
+@mixin border-bottom-right-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+     -moz-border-bottom-right-radius: $radius;
+      -ms-border-bottom-right-radius: $radius;
+          border-bottom-right-radius: $radius;
+}
+
+@mixin background-image-gradient($angle, $color1, $color2, $color3) {
+  background-image: -webkit-linear-gradient($angle, ($color1), ($color2), ($color3));
+  background-image: -moz-linear-gradient($angle, ($color1), ($color2), ($color3));
+  background-image: -o-linear-gradient($angle, ($color1), ($color2), ($color3));
+  background-image: linear-gradient($angle, ($color1), ($color2), ($color3));
+}
+
+@mixin background-linear-gradient($color1, $color2) {
+  background: -webkit-linear-gradient($color1, $color2);
+  background: -o-linear-gradient($color1, $color2);
+  background: -moz-linear-gradient($color1, $color2);
+  background: linear-gradient($color1, $color2);
+}
+
+@mixin blur($size) {
+  -webkit-filter: blur($size);
+  -o-filter: blur($size);
+  filter: blur($size);
+}
