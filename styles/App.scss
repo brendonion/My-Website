@@ -81,11 +81,14 @@
       color: $light-font;
       font-weight: 300;
     }
+
+    p { margin: 0.5rem 0; }
   }
 
   .info.container {
     justify-content: space-evenly;
-    height: 60px;
+    height: 50px;
+    padding: 0.5rem;
 
     @include tablet {
       justify-content: center;
@@ -116,6 +119,8 @@
     @include flex;
     flex-wrap: wrap;
     width: 65%;
+    max-width: 900px;
+    min-width: 300px;
     margin-bottom: 2rem;
   }
 
@@ -126,6 +131,10 @@
     width: initial;
     margin: 1rem 2rem;
     padding: 1rem;
+
+    @include mobile {
+      margin: 0.5rem;
+    }
 
     img {
       height: 70px;

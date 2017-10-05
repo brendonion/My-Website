@@ -68,7 +68,7 @@ class App extends Component {
                 <p>Redux</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Golang.png" />
                 <p>Golang</p>
               </div>
               <div className="skill container">
@@ -76,11 +76,11 @@ class App extends Component {
                 <p>Ruby</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Postgres.png" />
                 <p>Postgres</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Bootstrap.png" />
                 <p>Bootstrap</p>
               </div>
               <div className="skill container">
@@ -88,15 +88,15 @@ class App extends Component {
                 <p>Rails</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Express.png" />
                 <p>Express</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/MongoDB.png" />
                 <p>MongoDB</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Firebase.png" />
                 <p>Firebase</p>
               </div>
               <div className="skill container">
@@ -104,7 +104,7 @@ class App extends Component {
                 <p>jQuery</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Node.png" />
                 <p>Node</p>
               </div>
             </div>
