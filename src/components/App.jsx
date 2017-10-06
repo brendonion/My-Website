@@ -31,7 +31,23 @@ class App extends Component {
           <div className="section blue">
             <h1 className="header">EXPERIENCE</h1>
             <div className="experience container">
-              PLACEHOLDER
+              <h2 className="present">PRESENT</h2>
+              <div className="timeline"></div>
+              <div className="info">
+                <div>
+                  <h2>Freshworks Studio</h2>
+                  <h4>Junior Web Developer</h4>
+                  
+                </div>
+                <div>
+                  <h3>Since May 2017</h3>
+                  <ul>
+                    <li>Develop the front end of many projects using React and Redux</li>
+                    <li>Style page components to fit the designs as close as possible, as well as make the pages very responsive</li>
+                    <li>Discuss best practices with teammates in respect to file management and code maintanability</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div className="section">

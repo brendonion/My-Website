@@ -112,7 +112,40 @@
   }
 
   .experience.container {
+    position: relative;
+    @include flex;
+    flex-direction: column;
     margin-bottom: 2rem;
+
+    .timeline {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: calc(100% - 4rem);
+      width: 0;
+      margin: 3rem auto;
+      border: 0.5px solid $light-font;
+      background: $light-font;
+    }
+
+    .present {
+      margin: 1rem;
+      color: $light-font;
+      text-align: center;
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    .info {
+      @include flex;
+
+      div { 
+        width: 40%;
+        padding: 1rem;
+      }
+
+      div:first-child { width: 60%; }
+    }
   }
 
   .skills {
