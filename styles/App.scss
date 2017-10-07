@@ -4,6 +4,8 @@
   justify-content: center;
   padding-top: $navbar-height * 2;
 
+  @include tablet { padding-top: $navbar-height * 1.5; }
+
   .section {
     @include flex;
     flex-wrap: wrap;
@@ -182,17 +184,20 @@
       }
 
       .description {
-        width: 50%;
+        width: 80%;
         margin-left: 4rem;
         padding: 1rem;
 
-        @include tablet {
-          width: 80%;
-          margin: 0;
-        }
+        @include tablet { margin: 0; }
 
         li { padding: 0.5rem 0; }
       }
+    }
+  }
+
+  .education.container {
+    @include tablet {
+      .title { height: 50%; }
     }
   }
 
