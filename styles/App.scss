@@ -33,6 +33,7 @@
     @include flex;
     width: 65%;
     max-width: 900px;
+    padding: 0.5rem;
     background: white;
     @include border-radius(5px);
     @include border-top-left-radius(25px);
@@ -88,7 +89,6 @@
   .info.container {
     justify-content: space-evenly;
     height: 50px;
-    padding: 0.5rem;
 
     @include tablet {
       justify-content: center;
@@ -111,11 +111,22 @@
     }
   }
 
-  .experience.container {
+  .experience.container, .education.container {
     position: relative;
     @include flex;
     flex-direction: column;
     margin-bottom: 2rem;
+
+    @include tablet { align-items: center; }
+
+    .present {
+      margin: 1rem;
+      color: $x-light-font;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: 100;
+      font-style: italic;
+    }
 
     .timeline {
       position: absolute;
@@ -124,27 +135,64 @@
       height: calc(100% - 4rem);
       width: 0;
       margin: 3rem auto;
-      border: 0.5px solid $light-font;
-      background: $light-font;
-    }
+      border: 0.5px solid $x-light-font;
+      background: $x-light-font;
 
-    .present {
-      margin: 1rem;
-      color: $light-font;
-      text-align: center;
-      font-weight: 300;
-      font-style: italic;
+      @include tablet { display: none; }
     }
 
     .info {
       @include flex;
+      height: 400px;
 
-      div { 
-        width: 40%;
-        padding: 1rem;
+      @include tablet {
+        flex-wrap: wrap; 
+        justify-content: center;
+        height: auto;
       }
 
-      div:first-child { width: 60%; }
+      .title {
+        position: relative;
+        width: 80%;
+        padding: 1rem;
+
+        h4 {
+          font-weight: 400;
+          color: $light-font;
+        }
+
+        .circle {
+          position: absolute;
+          top: 1rem;
+          right: calc(-2rem + -12px);
+          height: 20px;
+          width: 20px;
+          border: 2px solid $x-light-font;
+          background: white;
+          @include border-radius(50%);
+
+          @include tablet { display: none; }
+        }
+
+        img {
+          height: 70%;
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .description {
+        width: 50%;
+        margin-left: 4rem;
+        padding: 1rem;
+
+        @include tablet {
+          width: 80%;
+          margin: 0;
+        }
+
+        li { padding: 0.5rem 0; }
+      }
     }
   }
 

@@ -31,15 +31,16 @@ class App extends Component {
           <div className="section blue">
             <h1 className="header">EXPERIENCE</h1>
             <div className="experience container">
-              <h2 className="present">PRESENT</h2>
+              <div className="present">PRESENT</div>
               <div className="timeline"></div>
               <div className="info">
-                <div>
+                <div className="title">
+                  <span className="circle"></span>
                   <h2>Freshworks Studio</h2>
                   <h4>Junior Web Developer</h4>
-                  
+                  <img src={"/assets/Freshworks.png"} />
                 </div>
-                <div>
+                <div className="description">
                   <h3>Since May 2017</h3>
                   <ul>
                     <li>Develop the front end of many projects using React and Redux</li>
@@ -48,12 +49,61 @@ class App extends Component {
                   </ul>
                 </div>
               </div>
+              <div className="info">
+                <div className="title">
+                  <span className="circle"></span>
+                  <h2>T-booth Wireless</h2>
+                  <h4>Sales Associate</h4>
+                  <img src={"/assets/TBooth.png"} />
+                </div>
+                <div className="description">
+                  <h3>July 2016 - March 2017</h3>
+                  <ul>
+                    <li>Sold phones and accessories in a personable way</li>
+                    <li>Kept up to date with the latest technologies</li>
+                    <li>Performed outstanding customer service to every person who stopped by</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="info">
+                <div className="title">
+                  <span className="circle"></span>
+                  <h2>Cordova Bay Golf</h2>
+                  <h4>Groundskeeper</h4>
+                  <img src={"/assets/CordovaBay.png"} />
+                </div>
+                <div className="description">
+                  <h3>May 2013 - August 2015</h3>
+                  <ul>
+                    <li>Maintained the course with a variety of equipment</li>
+                    <li>Completed tasks on a tight schedule</li>
+                    <li>Worked together with teammates and managed time effectively</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div className="section">
             <h1 className="header">EDUCATION</h1>
             <div className="education container">
-              PLACEHOLDER
+            <div className="present"></div>
+              <div className="timeline"></div>
+              <div className="info">
+                <div className="title">
+                  <span className="circle"></span>
+                  <h2>Lighthouse Labs</h2>
+                  <h4>Web Development Bootcamp</h4>
+                  <img src={"/assets/LighthouseLabs.png"} />
+                </div>
+                <div className="description">
+                  <h3>March 2017 - May 2017</h3>
+                  <ul>
+                    <li>A fully immersive program where students learn the foundations of web development</li>
+                    <li>Made use of modern day technologies for web apps</li>
+                    <li>Worked closely with classmates on projects and gained knowledge from local developers</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div className="section blue">
