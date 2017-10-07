@@ -31,13 +31,79 @@ class App extends Component {
           <div className="section blue">
             <h1 className="header">EXPERIENCE</h1>
             <div className="experience container">
-              PLACEHOLDER
+              <div className="present">PRESENT</div>
+              <div className="timeline"></div>
+              <div className="info">
+                <div className="title">
+                  <span className="circle"></span>
+                  <h2>Freshworks Studio</h2>
+                  <h4>Junior Web Developer</h4>
+                  <img src={"/assets/Freshworks.png"} />
+                </div>
+                <div className="description">
+                  <h3>Since May 2017</h3>
+                  <ul>
+                    <li>Develop the front end of many projects using React and Redux</li>
+                    <li>Style page components to fit the designs as close as possible, as well as make the pages very responsive</li>
+                    <li>Discuss best practices with teammates in respect to file management and code maintanability</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="info">
+                <div className="title">
+                  <span className="circle"></span>
+                  <h2>T-booth Wireless</h2>
+                  <h4>Sales Associate</h4>
+                  <img src={"/assets/TBooth.png"} />
+                </div>
+                <div className="description">
+                  <h3>July 2016 - March 2017</h3>
+                  <ul>
+                    <li>Sold phones and accessories in a personable way</li>
+                    <li>Kept up to date with the latest technologies</li>
+                    <li>Performed outstanding customer service to every person who stopped by</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="info">
+                <div className="title">
+                  <span className="circle"></span>
+                  <h2>Cordova Bay Golf</h2>
+                  <h4>Groundskeeper</h4>
+                  <img src={"/assets/CordovaBay.png"} />
+                </div>
+                <div className="description">
+                  <h3>May 2013 - August 2015</h3>
+                  <ul>
+                    <li>Maintained the course with a variety of equipment</li>
+                    <li>Completed tasks on a tight schedule</li>
+                    <li>Worked together with teammates and managed time effectively</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div className="section">
             <h1 className="header">EDUCATION</h1>
             <div className="education container">
-              PLACEHOLDER
+            <div className="present"></div>
+              <div className="timeline"></div>
+              <div className="info">
+                <div className="title">
+                  <span className="circle"></span>
+                  <h2>Lighthouse Labs</h2>
+                  <h4>Web Development Bootcamp</h4>
+                  <img src={"/assets/LighthouseLabs.png"} />
+                </div>
+                <div className="description">
+                  <h3>March 2017 - May 2017</h3>
+                  <ul>
+                    <li>A fully immersive program where students learn the foundations of web development</li>
+                    <li>Made use of modern day technologies for web apps</li>
+                    <li>Worked closely with classmates on projects and gained knowledge from local developers</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           <div className="section blue">
@@ -68,7 +134,7 @@ class App extends Component {
                 <p>Redux</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Golang.png" />
                 <p>Golang</p>
               </div>
               <div className="skill container">
@@ -76,11 +142,11 @@ class App extends Component {
                 <p>Ruby</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Postgres.png" />
                 <p>Postgres</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Bootstrap.png" />
                 <p>Bootstrap</p>
               </div>
               <div className="skill container">
@@ -88,15 +154,15 @@ class App extends Component {
                 <p>Rails</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Express.png" />
                 <p>Express</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/MongoDB.png" />
                 <p>MongoDB</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Firebase.png" />
                 <p>Firebase</p>
               </div>
               <div className="skill container">
@@ -104,7 +170,7 @@ class App extends Component {
                 <p>jQuery</p>
               </div>
               <div className="skill container">
-                <img src="" />
+                <img src="/assets/Node.png" />
                 <p>Node</p>
               </div>
             </div>

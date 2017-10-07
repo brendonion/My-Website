@@ -6,6 +6,7 @@
   width: 100%;
   height: $navbar-height;
   background: $main-highlight;
+  z-index: 100;
 
   hr {
     position: absolute;
