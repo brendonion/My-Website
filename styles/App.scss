@@ -196,6 +196,8 @@
   }
 
   .education.container {
+    margin: 0;
+    
     @include tablet {
       .title { height: 50%; }
     }
@@ -218,9 +220,9 @@
     margin: 1rem 2rem;
     padding: 1rem;
 
-    @include mobile {
-      margin: 0.5rem;
-    }
+    @include mobile { margin: 0.5rem; }
+
+    p { margin-top: 0.5rem; }
 
     img {
       height: 70px;
