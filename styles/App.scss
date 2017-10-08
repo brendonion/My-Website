@@ -31,20 +31,6 @@
     text-align: center;
   }
 
-  .container {
-    @include flex;
-    width: 65%;
-    max-width: 900px;
-    padding: 0.5rem;
-    background: white;
-    @include border-radius(5px);
-    @include border-top-left-radius(25px);
-    @include border-bottom-right-radius(25px);
-    box-shadow: $box-shadow-heavy-spread;
-
-    @include tablet { width: 90%; }
-  }
-
   .profile.container {
     margin-bottom: 2rem;
 
@@ -255,7 +241,7 @@
       width: 70px;
       height: 50px;
       border: none;
-      background: url('/assets/UpArrow.png') no-repeat center;
+      background: url('/assets/UpArrow.svg') no-repeat center;
     }
   }
 }
