@@ -12,8 +12,6 @@ import '../styles/index.scss';
 
 const history = createHistory();
 
-// Now you can dispatch navigation actions from anywhere!
-// store.dispatch(push('/foo'))
 ReactDOM.render(
 	<Provider store={store}>
 		<Router history={history}>
