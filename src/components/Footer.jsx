@@ -15,7 +15,7 @@ const Footer = (props) => {
           <a href="https://github.com/brendonion" target="_blank">brendonion</a>
         </p>
       </div>
-      <button onClick={() => document.body.scrollTop = 0} className="up-btn" />
+      <button onClick={() => document.body.scrollTop = document.documentElement.scrollTop = 0} className="up-btn" />
     </div>
   )
 }
