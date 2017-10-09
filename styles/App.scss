@@ -45,6 +45,7 @@
   .profile-pic {
     height: calc(100% - 2rem);
     width: 40%;
+    min-width: 40%;
     margin: 1rem;
     object-fit: cover;
     @include border-radius(5px);
@@ -205,6 +206,12 @@
     width: initial;
     margin: 1rem 2rem;
     padding: 1rem;
+    transition: box-shadow 150ms ease-in-out;
+
+    &:hover {
+      box-shadow: $box-shadow-hover-spread;
+      transition: box-shadow 150ms ease-in-out;
+    }
 
     @include mobile { margin: 0.5rem; }
 
@@ -214,6 +221,58 @@
       height: 70px;
       width: 70px;
       object-fit: contain;
+    }
+  }
+
+  .projects {
+    position: relative;
+    justify-content: center;
+    min-height: 500px;
+    margin-bottom: $navbar-height + 20px;
+
+    .container { margin: auto; }
+
+    .project-carousel {
+      @include flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+      
+      h3, span { color: $light-font; }
+      
+      span { margin-top: 2rem; }
+    }
+
+    img {
+      height: 200px;
+      width: 200px;
+      margin: auto;
+      object-fit: contain;
+    }
+
+    .btn-container {
+      position: absolute;
+      bottom: -4rem;
+      @include flex;
+      justify-content: space-between;
+      width: 6rem;
+
+      .left-arrow {
+        height: 40px;
+        width: 30px;
+        border: none;
+        background: url('/assets/LeftArrow.svg') no-repeat center;
+        background-size: 100%;
+      }
+
+      .right-arrow {
+        height: 40px;
+        width: 30px;
+        border: none;
+        background: url('/assets/RightArrow.svg') no-repeat center;
+        background-size: 100%;
+      }
     }
   }
   

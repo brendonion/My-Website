@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 import Navbar from './Navbar.jsx';
 import About from './About.jsx';
@@ -16,7 +17,15 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <div className="main">
-          <About />
+          <CSSTransitionGroup
+            transitionName="mounted"
+            transitionAppear={true}
+            transitionEnter={false}
+            transitionLeave={false}
+            transitionAppearTimeout={2000}
+          >
+            <About />
+          </CSSTransitionGroup>
           <Experience />
           <Education />
           <Skills />

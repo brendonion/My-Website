@@ -25,7 +25,7 @@ button {
   @include background-linear-gradient(#BCCDED, #DCE4F4);
 }
 
-a, .link {
+a {
   color: $active-blue;
   text-decoration: none;
 }
@@ -44,6 +44,8 @@ a, .link {
   @include tablet { width: 90%; }
 }
 
+// Transitions
+
 .modal-enter {
 	opacity: 0;
 }
@@ -55,11 +57,30 @@ a, .link {
 	transition: all 200ms;
 }
 
-.modal-leave {
-  opacity: 1;
-}
+.modal-leave { opacity: 1; }
 
 .modal-leave.modal-leave-active {
   opacity: 0;
   transition: opacity 200ms ease-in;
 }
+
+.mounted-appear { opacity: 0.01; }
+
+.mounted-appear.mounted-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.slide-enter {
+  transform: translateX(100%); 
+  transition: 0.3s transform ease-in-out;
+}
+
+.slide-enter-active { transform: translate(0); }
+
+.slide-leave {
+  transform: translate(0);
+  transition: 0.3s transform ease-in-out;
+}
+
+.slide-leave-active { transform: translateX(-100%); } 
