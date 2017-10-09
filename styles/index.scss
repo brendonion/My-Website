@@ -46,9 +46,7 @@ a {
 
 // Transitions
 
-.modal-enter {
-	opacity: 0;
-}
+.modal-enter { opacity: 0; }
 
 .modal-enter.modal-enter-active {
   opacity: 1;
@@ -76,10 +74,10 @@ a {
   transition: 0.3s transform ease-in-out;
 }
 
-.slide-enter-active { transform: translate(0); }
+.slide-enter-active { transform: translateX(0); }
 
 .slide-leave {
-  transform: translate(0);
+  transform: translateX(0);
   transition: 0.3s transform ease-in-out;
 }
 

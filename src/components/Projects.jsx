@@ -95,7 +95,7 @@ class Projects extends Component {
       <div id="projects" className="projects section">
         <h1 className="header">PROJECTS</h1>
         <CSSTransitionGroup
-          transitionName="slide"
+          transitionName="modal"
           transitionEnterTimeout={200}
           transitionLeaveTimeout={200}
         >
