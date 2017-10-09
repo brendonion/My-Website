@@ -30,6 +30,12 @@
       font-weight: 300;
       border: none;
       background: none;
+      transition: all 100ms linear;
+
+      &:hover {
+        color: $secondary-highlight;
+        transition: all 100ms linear;
+      }
     }
   }
 
@@ -70,6 +76,7 @@
       border: none;
       background: none;
       padding: 0.5rem 0;
+      font-size: 1rem;
       transition: background 150ms linear;
 
       &:hover {
