@@ -19,9 +19,7 @@
     @include border-radius(32px);
     margin-bottom: 1rem;
 
-    .header {
-      color: white;
-    }
+    .header { color: white; }
   }
 
   .header {
@@ -39,7 +37,7 @@
       justify-content: center;
     }
 
-    @include mobile { height: 650px; }
+    @include mobile { height: 750px; }
   }
 
   .profile-pic {
@@ -62,9 +60,10 @@
   .meta-container {
     margin: 1rem 2rem 1rem 1rem;
 
-    @include tablet { flex-basis: 75%; }
-
-    @include mobile { font-size: 0.9rem; }
+    @include tablet { 
+      flex-basis: 75%; 
+      font-size: 0.9rem;
+    }
 
     h3 {
       margin: 0.5rem 0;

@@ -8,7 +8,7 @@ const About = (props) => {
         <div className="meta-container">
           <h1>Brendan Walker</h1>
           <h3>Web Developer</h3>
-          <p>I’m a web developer who has a passion for technology and design. I was inspired to work for the tech industry while touring my cousin’s company in Denmark. I knew right away that this was something I wanted to pursue. Thus, I’m ever so eager to code and discover the possibilities of the web.</p>
+          <p>I'm a web developer who has a passion for technology and is enthusiastic about making intuitive UI. After spending some time at my cousin's tech company and seeing all the collaboration and creativity, I knew right away that this was something I wanted to pursue. I strive every day to write cleaner and more modular code, and in doing so I discover more possibilities of the web.</p>
         </div>
       </div>
       <div className="info container">
