@@ -57,6 +57,8 @@
   }
 
   .dropdown-btn.active {
+    height: 45px;
+    width: 45px;
     background: url('/assets/DropdownActive.svg') center no-repeat;
     background-size: 100%;
     transition: all 150ms linear;

@@ -19,9 +19,7 @@
     @include border-radius(32px);
     margin-bottom: 1rem;
 
-    .header {
-      color: white;
-    }
+    .header { color: white; }
   }
 
   .header {
@@ -39,7 +37,7 @@
       justify-content: center;
     }
 
-    @include mobile { height: 650px; }
+    @include mobile { height: 750px; }
   }
 
   .profile-pic {
@@ -62,9 +60,10 @@
   .meta-container {
     margin: 1rem 2rem 1rem 1rem;
 
-    @include tablet { flex-basis: 75%; }
-
-    @include mobile { font-size: 0.9rem; }
+    @include tablet { 
+      flex-basis: 75%; 
+      font-size: 0.9rem;
+    }
 
     h3 {
       margin: 0.5rem 0;
@@ -89,8 +88,6 @@
       @include flex;
       margin: auto;
     }
-
-    p:first-child { color: $light-font; }
 
     img { margin: auto 0.5rem; }
 
@@ -252,26 +249,39 @@
 
     .btn-container {
       position: absolute;
-      bottom: -4rem;
       @include flex;
       justify-content: space-between;
-      width: 6rem;
+      top: 0;
+      bottom: 0;
+      right: 2rem;
+      left: 2rem;
+      margin: auto;
+      max-width: $tablet-width;
+      height: 6rem;
 
-      .left-arrow {
-        height: 40px;
-        width: 30px;
-        border: none;
-        background: url('/assets/LeftArrow.svg') no-repeat center;
-        background-size: 100%;
+      @include tablet {
+        position: absolute;
+        @include flex;
+        justify-content: space-between;
+        bottom: -4rem;
+        top: initial;
+        right: initial;
+        left: initial;
+        width: 6rem;
+        height: auto;
       }
 
-      .right-arrow {
+      .left-arrow, .right-arrow {
         height: 40px;
         width: 30px;
+        margin: auto 0;
         border: none;
-        background: url('/assets/RightArrow.svg') no-repeat center;
         background-size: 100%;
       }
+      
+      .left-arrow { background: url('/assets/LeftArrow.svg') no-repeat center; }
+
+      .right-arrow { background: url('/assets/RightArrow.svg') no-repeat center; }
     }
   }
   
