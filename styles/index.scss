@@ -25,7 +25,7 @@ button {
   @include background-linear-gradient(#BCCDED, #DCE4F4);
 }
 
-a {
+a, .link {
   color: $active-blue;
   text-decoration: none;
 }

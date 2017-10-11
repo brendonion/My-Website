@@ -90,8 +90,6 @@
       margin: auto;
     }
 
-    p:first-child { color: $light-font; }
-
     img { margin: auto 0.5rem; }
 
     .github {
@@ -252,26 +250,39 @@
 
     .btn-container {
       position: absolute;
-      bottom: -4rem;
       @include flex;
       justify-content: space-between;
-      width: 6rem;
+      top: 0;
+      bottom: 0;
+      right: 2rem;
+      left: 2rem;
+      margin: auto;
+      max-width: $tablet-width;
+      height: 6rem;
 
-      .left-arrow {
-        height: 40px;
-        width: 30px;
-        border: none;
-        background: url('/assets/LeftArrow.svg') no-repeat center;
-        background-size: 100%;
+      @include tablet {
+        position: absolute;
+        @include flex;
+        justify-content: space-between;
+        bottom: -4rem;
+        top: initial;
+        right: initial;
+        left: initial;
+        width: 6rem;
+        height: auto;
       }
 
-      .right-arrow {
+      .left-arrow, .right-arrow {
         height: 40px;
         width: 30px;
+        margin: auto 0;
         border: none;
-        background: url('/assets/RightArrow.svg') no-repeat center;
         background-size: 100%;
       }
+      
+      .left-arrow { background: url('/assets/LeftArrow.svg') no-repeat center; }
+
+      .right-arrow { background: url('/assets/RightArrow.svg') no-repeat center; }
     }
   }
   
