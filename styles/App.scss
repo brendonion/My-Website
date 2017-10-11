@@ -32,7 +32,7 @@
   .profile.container {
     margin-bottom: 2rem;
 
-    @include tablet {
+    @include large {
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -50,7 +50,7 @@
     @include border-top-left-radius(25px);
     @include border-bottom-right-radius(25px);
 
-    @include tablet {
+    @include large {
       flex-basis: 75%;
       height: 50%;
       margin-bottom: 0;
