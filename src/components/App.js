@@ -14,6 +14,9 @@ const App = (props) => {
     <div className="App">
       <Navbar />
       <div className="main">
+        <div className="typing-gif">
+          <div className="overlay" />
+        </div>
         <CSSTransitionGroup
           transitionName="mounted"
           transitionAppear

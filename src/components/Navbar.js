@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 
 import Modal from './reusables/Modal';
 
@@ -47,21 +48,20 @@ class Navbar extends Component {
           show={this.state.dropdownActive}
         >
           <div className="dropdown-menu container">
-            <button onClick={() => this.handleNavigation('about')}>ABOUT</button>
-            <button onClick={() => this.handleNavigation('experience')}>EXPERIENCE</button>
-            <button onClick={() => this.handleNavigation('education')}>EDUCATION</button>
-            <button onClick={() => this.handleNavigation('skills')}>SKILLS</button>
-            <button onClick={() => this.handleNavigation('projects')}>PROJECTS</button>
+            <Link className="link" activeClass="active" to="about" spy smooth offset={-60} duration={500}>ABOUT</Link>
+            <Link className="link" activeClass="active" to="experience" spy smooth offset={-60} duration={500}>EXPERIENCE</Link>
+            <Link className="link" activeClass="active" to="education" spy smooth offset={-60} duration={500}>EDUCATION</Link>
+            <Link className="link" activeClass="active" to="skills" spy smooth offset={-60} duration={500}>SKILLS</Link>
+            <Link className="link" activeClass="active" to="projects" spy smooth offset={-60} duration={500}>PROJECTS</Link>
           </div>
         </Modal>
         <div className="section-header">
-          <button onClick={() => this.handleNavigation('about')}>ABOUT</button>
-          <button onClick={() => this.handleNavigation('experience')}>EXPERIENCE</button>
-          <button onClick={() => this.handleNavigation('education')}>EDUCATION</button>
-          <button onClick={() => this.handleNavigation('skills')}>SKILLS</button>
-          <button onClick={() => this.handleNavigation('projects')}>PROJECTS</button>
+          <Link className="link" activeClass="active" to="about" spy smooth offset={-60} duration={500}>ABOUT</Link>
+          <Link className="link" activeClass="active" to="experience" spy smooth offset={-60} duration={500}>EXPERIENCE</Link>
+          <Link className="link" activeClass="active" to="education" spy smooth offset={-60} duration={500}>EDUCATION</Link>
+          <Link className="link" activeClass="active" to="skills" spy smooth offset={-60} duration={500}>SKILLS</Link>
+          <Link className="link" activeClass="active" to="projects" spy smooth offset={-60} duration={500}>PROJECTS</Link>
         </div>
-        <hr/>
       </div>
     )
   }

@@ -1,4 +1,4 @@
-$mobile-width: 500px;
+$mobile-width: 550px;
 $tablet-width: 768px;
 $large-width: 1024px;
 $desktop-width: 75em;
@@ -105,4 +105,11 @@ $x-large-width: 90em;
   -webkit-filter: blur($size);
   -o-filter: blur($size);
   filter: blur($size);
+}
+
+@mixin animation($type, $duration) {
+  animation: $type $duration;
+  -moz-animation: $type $duration;
+  -webkit-animation: $type $duration;
+  -o-animation: $type $duration;
 }

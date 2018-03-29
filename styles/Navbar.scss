@@ -9,21 +9,14 @@
   background: $main-highlight;
   z-index: 100;
 
-  hr {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border: 2px solid $secondary-highlight;
-    box-shadow: $box-shadow-glow;
-  }
-
   .section-header {
     @include flex;
     justify-content: space-between;
+    align-items: center;
 
     @include tablet { display: none; }
 
-    button {
+    .link {
       margin: 0 1rem;
       color: white;
       font-size: 1rem;
@@ -31,6 +24,12 @@
       border: none;
       background: none;
       transition: all 100ms linear;
+      cursor: pointer;
+
+      &.active {
+        color: $secondary-highlight;
+        font-size: 1.5rem;
+      }
 
       &:hover {
         color: $secondary-highlight;
@@ -74,12 +73,17 @@
     width: 300px;
     margin: auto;
 
-    button {
+    .link {
       border: none;
       background: none;
       padding: 0.5rem 0;
       font-size: 1rem;
       transition: background 150ms linear;
+      color: $medium-font;
+
+      &.active {
+        color: $secondary-highlight;
+      }
 
       &:hover {
         background: $light-grey;
