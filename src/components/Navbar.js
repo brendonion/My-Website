@@ -28,12 +28,6 @@ class Navbar extends Component {
     this.setState({dropdownActive: !this.state.dropdownActive});
   }
 
-  handleNavigation(section) {
-    document.getElementById(section).scrollIntoView();
-    window.scroll(0, window.scrollY - 60);
-    this.handleWidth();
-  }
-
   render() {
     return (
       <div className="navbar">
