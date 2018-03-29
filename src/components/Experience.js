@@ -19,7 +19,8 @@ const Experience = (props) => {
             <ul>
               <li>Develop the front end of many projects using React and Redux</li>
               <li>Style page components to fit the designs as close as possible, as well as make the pages very responsive</li>
-              <li>Discuss best practices with teammates in respect to file management and code maintanability</li>
+              <li>Discuss best practices with teammates in respect to file management and code maintainability</li>
+              <li>Research and develop demo apps using latest technologies such as GraphQL, Blockchain, and Unity to name a few</li>
             </ul>
           </div>
         </div>

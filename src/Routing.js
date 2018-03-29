@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Switch } from 'react-router';
-import * as Routes from './constants/routes.jsx';
+import * as Routes from './constants/routes';
 
-import App from './components/App.jsx';
+import App from './components/App';
 
 const Routing = (props) => {
   return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Modal from './reusables/Modal.jsx';
+import Modal from './reusables/Modal';
 
 class Navbar extends Component {
   constructor(props) {
