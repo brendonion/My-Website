@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 const Footer = (props) => {
   return (
     <div className="footer blue">
-      <h5 className="header">Brendan Walker</h5>
+      <h5 className="header">Brendan Walker 2018</h5>
       <div className="info container">
         <p className="link"><img src="/assets/Phone.svg" />250-857-2365</p>
         <p>
