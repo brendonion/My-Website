@@ -149,28 +149,48 @@ const Skills = (props) => {
 
         <div className="banner">
           <div className="right skill container">
-            <img src="" />
+            <img src="/assets/Sketch.png" />
             <p>Sketch</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/Unity.png" />
             <p>Unity</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/GraphQL.png" />
             <p>GraphQL</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/CPP.png" />
             <p>C++</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/Docker.png" />
             <p>Docker</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/PyxelEdit.png" />
             <p>PyxelEdit</p>
+          </div>
+          <div className="skill container">
+            <img src="/assets/Sketch.png" />
+            <p>Sketch</p>
+          </div>
+          <div className="skill container">
+            <img src="/assets/Unity.png" />
+            <p>Unity</p>
+          </div>
+          <div className="skill container">
+            <img src="/assets/GraphQL.png" />
+            <p>GraphQL</p>
+          </div>
+          <div className="skill container">
+            <img src="/assets/CPP.png" />
+            <p>C++</p>
+          </div>
+          <div className="skill container">
+            <img src="/assets/Docker.png" />
+            <p>Docker</p>
           </div>
         </div>
 
