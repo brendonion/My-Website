@@ -5,8 +5,9 @@ const Skills = (props) => {
     <div id="skills" className="section blue">
       <h1 className="header">SKILLS</h1>
       <div className="skills">
-        
+
         <div className="banner">
+          <div className="gradient-blur left-pos" />
           <div className="left skill container">
             <img src="/assets/Javascript.png" />
             <p>Javascript</p>
@@ -51,9 +52,11 @@ const Skills = (props) => {
             <img src="/assets/React.png" />
             <p>React</p>
           </div>
+          <div className="gradient-blur right-pos" />
         </div>
 
         <div className="banner">
+          <div className="gradient-blur left-pos" />
           <div className="right skill container">
             <img src="/assets/Golang.png" />
             <p>Golang</p>
@@ -98,19 +101,21 @@ const Skills = (props) => {
             <img src="/assets/Bootstrap.png" />
             <p>Bootstrap</p>
           </div>
+          <div className="gradient-blur right-pos" />
         </div>
 
         <div className="banner">
+          <div className="gradient-blur left-pos" />
           <div className="left skill container">
             <img src="/assets/Node.png" />
             <p>Node</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/Typescript.png" />
             <p>Typescript</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/Flow.jpg" />
             <p>Flow</p>
           </div>
           <div className="skill container">
@@ -130,11 +135,11 @@ const Skills = (props) => {
             <p>Node</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/Typescript.png" />
             <p>Typescript</p>
           </div>
           <div className="skill container">
-            <img src="" />
+            <img src="/assets/Flow.jpg" />
             <p>Flow</p>
           </div>
           <div className="skill container">
@@ -145,9 +150,11 @@ const Skills = (props) => {
             <img src="/assets/Firebase.png" />
             <p>Firebase</p>
           </div>
+          <div className="gradient-blur right-pos" />
         </div>
 
         <div className="banner">
+          <div className="gradient-blur left-pos" />
           <div className="right skill container">
             <img src="/assets/Sketch.png" />
             <p>Sketch</p>
@@ -192,6 +199,7 @@ const Skills = (props) => {
             <img src="/assets/Docker.png" />
             <p>Docker</p>
           </div>
+          <div className="gradient-blur right-pos" />
         </div>
 
       </div>

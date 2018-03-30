@@ -160,7 +160,7 @@
       height: calc(100% - 4rem);
       width: 0;
       margin: 3rem auto;
-      border: 0.5px solid $x-light-font;
+      border-right: 1px solid $x-light-font;
       background: $x-light-font;
 
       @include tablet { display: none; }
@@ -231,6 +231,7 @@
   // SKILLS
 
   .skills {
+    position: relative;
     @include flex;
     flex-wrap: wrap;
     width: 65%;
@@ -240,10 +241,29 @@
   }
 
   .banner {
+    position: relative;
     @include flex;
     flex-direction: row;
     height: auto;
+    width: 600px;
+    margin: 0 auto;
     overflow: hidden;
+  }
+
+  .gradient-blur {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    
+    &.right-pos {
+      right: -50px;
+      box-shadow: -15px 0px 20px 10px $secondary-highlight;
+    }
+
+    &.left-pos {
+      left: -50px;
+      box-shadow: 15px 0px 20px 10px $secondary-highlight;
+    }
   }
     
   .banner .skill {
