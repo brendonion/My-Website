@@ -7,10 +7,24 @@ class Projects extends Component {
     this.state = {
       images: [
         {
+          image: '/assets/Covault.png',
+          name: 'Covault',
+          type: 'Web Application',
+          description: 'An asset management web app where brand users can invite other users, upload assets, create ad sets, and use those ad sets for co-op opportunities in which dealer users can make promotional campaigns.',
+          stack: 'React, Redux, Jest, Enzyme, Video-React, React-Dropzone, Node.js',
+        },
+        {
+          image: '/assets/SwiftEditor.png',
+          name: 'Swift Editor',
+          type: 'Web Application',
+          description: 'A web app for writers to manage their work. Editor, owner, and associate users can chat in real time, send/pay invoices, review work in progress, and update job statuses using an intuitive interface.',
+          stack: 'React, Redux, Pusher.js, Stripe, React-Bootstrap, Node.js',
+        },
+        {
           image: '/assets/RevvedUp.png',
           name: 'Revved Up',
           type: 'Web Application',
-          description: 'An online vehicle bidding web app where dealers can bid on vehicle auctions, chat in realtime, and search for local wholesellers.',
+          description: 'An online vehicle bidding web app where dealers can bid on vehicle auctions, chat in real time, and search for local wholesellers.',
           stack: 'React, Redux, Deepstream.io, Material UI, Node.js',
         },
         {

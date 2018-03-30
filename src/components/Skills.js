@@ -115,8 +115,8 @@ const Skills = (props) => {
             <p>Typescript</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Flow.jpg" />
-            <p>Flow</p>
+            <img src="/assets/Jest.png" />
+            <p>Jest</p>
           </div>
           <div className="skill container">
             <img src="/assets/MongoDB.png" />
@@ -139,8 +139,8 @@ const Skills = (props) => {
             <p>Typescript</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Flow.jpg" />
-            <p>Flow</p>
+            <img src="/assets/Jest.png" />
+            <p>Jest</p>
           </div>
           <div className="skill container">
             <img src="/assets/MongoDB.png" />
