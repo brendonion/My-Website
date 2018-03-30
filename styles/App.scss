@@ -26,14 +26,14 @@
   .typing-gif {
     position: absolute;
     top: -75px;
-    width: 100%;
+    left: 0;
+    right: 0;
     height: 100%;
     min-height: 800px;
     z-index: 0;
     background: url('/assets/Typing.gif') no-repeat center;
     background-size: cover;
-    -webkit-animation-delay: 1s;
-    @include animation(blur, 1s);
+    @include blur(5px);
     
     @include large {
       min-height: 1000px;
@@ -47,8 +47,8 @@
       position: absolute;
       height: 100%;
       width: 100%;
-      background: $dark-grey;
-      opacity: 0.3;
+      background: black;
+      opacity: 0.4;
     }
   }  
 
@@ -264,6 +264,30 @@
 
     .container { margin: auto; }
 
+    .carousel {
+      max-width: 900px;
+
+      .slide {
+        background: none;
+        text-align: left;
+      }
+
+      .carousel-status,
+      .control-arrow { 
+        @include mobile { display: none; }
+      }
+
+      .control-next.control-arrow:before {
+        border-left: 8px solid $dark-grey;
+        @include mobile { display: none; }
+      }
+
+      .control-prev.control-arrow:before {
+        border-right: 8px solid $dark-grey;
+        @include mobile { display: none; }
+      }
+    }
+
     .project-carousel {
       @include flex;
       justify-content: center;
@@ -341,10 +365,11 @@
       right: 0;
       bottom: 0.5rem;
       margin: auto;
-      width: 70px;
-      height: 50px;
+      width: 30px;
+      height: 30px;
       border: none;
       background: url('/assets/UpArrow.svg') no-repeat center;
+      cursor: pointer;
     }
   }
 }

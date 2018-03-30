@@ -53,7 +53,7 @@ const config = {
     // Let us also add the style-loader and css-loader, which you can
     // expand with less-loader etc
     {
-      test: /\.scss$/,
+      test: /\.s?css$/,
       loaders: ['style-loader', 'css-loader', 'sass-loader']
     },
     {

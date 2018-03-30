@@ -12,9 +12,9 @@ const About = (props) => {
         </div>
       </div>
       <div className="info container">
-        <p className="link"><img src="/assets/Phone.png" />250-857-2365</p>
+        <p className="link"><img src="/assets/Phone.svg" />250-857-2365</p>
         <p>
-          <img src="/assets/Email.png" />
+          <img src="/assets/Email.svg" />
           <a href="mailto:brenny.walker@gmail.com">brenny.walker@gmail.com</a>
         </p>
         <p>
