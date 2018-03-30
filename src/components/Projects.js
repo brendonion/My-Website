@@ -50,7 +50,7 @@ class Projects extends Component {
           stopOnHover
         >
           {images.length && images.map((image, index) => (
-            <div className="container">
+            <div key={index} className="container">
               <div className="project-carousel">
                 <img src={image.image} />
                 <h2>{image.name}</h2>

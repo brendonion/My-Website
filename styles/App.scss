@@ -263,10 +263,16 @@
     margin-bottom: $navbar-height + 20px;
 
     .container { margin: auto; }
-
+    
+    
     .carousel {
       max-width: 900px;
-
+      
+      .slider-wrapper {
+        @include mobile { width: 400px; }
+        @include small-mobile { width: 300px; }
+      }
+      
       .slide {
         background: none;
         text-align: left;

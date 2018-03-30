@@ -11,7 +11,7 @@ const Experience = (props) => {
           <div className="title">
             <span className="circle"></span>
             <h2>Freshworks Studio</h2>
-            <h4>Junior Web Developer</h4>
+            <h4>Junior Full Stack Web Developer</h4>
             <img src={"/assets/Freshworks.png"} />
           </div>
           <div className="description">

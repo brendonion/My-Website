@@ -76,10 +76,11 @@
     .link {
       border: none;
       background: none;
-      padding: 0.5rem 0;
+      padding: 0.5rem;
       font-size: 1rem;
       transition: background 150ms linear;
       color: $dark-font;
+      cursor: pointer;
 
       &.active {
         color: $secondary-highlight;
