@@ -30,7 +30,8 @@ const config = {
     },
     {
       test: /\.css$/,
-      loader: 'style-loader!css-loader'
+      exclude: /node_modules/,
+      loader: ['style-loader', 'css-loader']
     },
     {
         test: /\.(jpe?g|png|gif|svg)$/i,
