@@ -11,15 +11,16 @@ const Experience = (props) => {
           <div className="title">
             <span className="circle"></span>
             <h2>Freshworks Studio</h2>
-            <h4>Junior Web Developer</h4>
+            <h4>Junior Full Stack Web Developer</h4>
             <img src={"/assets/Freshworks.png"} />
           </div>
           <div className="description">
             <h3>Since May 2017</h3>
             <ul>
               <li>Develop the front end of many projects using React and Redux</li>
-              <li>Style page components to fit the designs as close as possible, as well as make the pages very responsive</li>
-              <li>Discuss best practices with teammates in respect to file management and code maintanability</li>
+              <li>Style page components to fit the designs as close as possible, as well as make the pages mobile friendly</li>
+              <li>Discuss best practices with teammates in respect to file management and code maintainability</li>
+              <li>Research and develop demo apps using latest technologies such as GraphQL, Blockchain, and Unity just to name a few</li>
             </ul>
           </div>
         </div>
