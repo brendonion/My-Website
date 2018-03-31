@@ -42,11 +42,11 @@ class Navbar extends Component {
           show={this.state.dropdownActive}
         >
           <div className="dropdown-menu container">
-            <Link className="link" activeClass="active" to="about" spy smooth offset={-60} duration={500}>ABOUT</Link>
-            <Link className="link" activeClass="active" to="experience" spy smooth offset={-60} duration={500}>EXPERIENCE</Link>
-            <Link className="link" activeClass="active" to="education" spy smooth offset={-60} duration={500}>EDUCATION</Link>
-            <Link className="link" activeClass="active" to="skills" spy smooth offset={-60} duration={500}>SKILLS</Link>
-            <Link className="link" activeClass="active" to="projects" spy smooth offset={-60} duration={500}>PROJECTS</Link>
+            <Link className="link" activeClass="active" onClick={() => this.handleDropdown()} to="about" spy smooth offset={-60} duration={500}>ABOUT</Link>
+            <Link className="link" activeClass="active" onClick={() => this.handleDropdown()} to="experience" spy smooth offset={-60} duration={500}>EXPERIENCE</Link>
+            <Link className="link" activeClass="active" onClick={() => this.handleDropdown()} to="education" spy smooth offset={-60} duration={500}>EDUCATION</Link>
+            <Link className="link" activeClass="active" onClick={() => this.handleDropdown()} to="skills" spy smooth offset={-60} duration={500}>SKILLS</Link>
+            <Link className="link" activeClass="active" onClick={() => this.handleDropdown()} to="projects" spy smooth offset={-60} duration={500}>PROJECTS</Link>
           </div>
         </Modal>
         <div className="section-header">
