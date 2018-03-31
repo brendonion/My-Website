@@ -58,7 +58,6 @@ class Projects extends Component {
       <div id="projects" className="projects section">
         <h1 className="header">PROJECTS</h1>
         <Carousel
-          showIndicators={false}
           infiniteLoop
           autoPlay
           stopOnHover

@@ -314,13 +314,19 @@
     min-height: 520px;
     margin-bottom: $navbar-height + 20px;
 
-    .container { margin: auto; }
-    
+    .container { 
+      margin: 0 auto 2rem auto;
+      @include mobile { margin: 0 auto 1rem auto; }
+    }
     
     .carousel {
       max-width: 900px;
       
       .slider-wrapper {
+        width: auto;
+        max-width: 900px;
+        @include large { width: 780px; }
+        @include tablet { width: 500px; }
         @include mobile { width: 400px; }
         @include small-mobile { width: 300px; }
       }
@@ -328,11 +334,24 @@
       .slide {
         background: none;
         text-align: left;
+
+        img {
+          height: 160px;
+          width: 250px;
+          margin: 0.5rem auto;
+          object-fit: contain;
+        }
       }
 
       .carousel-status,
       .control-arrow { 
-        @include mobile { display: none; }
+        @include large { display: none; }
+      }
+
+      .control-dots {
+        display: none;
+        bottom: -12px;
+        @include large { display: initial; }
       }
 
       .control-next.control-arrow:before {
@@ -355,50 +374,6 @@
       h3, span { color: $light-font; }
       
       span { margin-top: 2rem; }
-    }
-
-    img {
-      height: 200px;
-      width: 200px;
-      margin: auto;
-      object-fit: contain;
-    }
-
-    .btn-container {
-      position: absolute;
-      @include flex;
-      justify-content: space-between;
-      top: 0;
-      bottom: 0;
-      right: 2rem;
-      left: 2rem;
-      margin: auto;
-      max-width: $tablet-width;
-      height: 6rem;
-
-      @include tablet {
-        position: absolute;
-        @include flex;
-        justify-content: space-between;
-        bottom: -4rem;
-        top: initial;
-        right: initial;
-        left: initial;
-        width: 6rem;
-        height: auto;
-      }
-
-      .left-arrow, .right-arrow {
-        height: 40px;
-        width: 30px;
-        margin: auto 0;
-        border: none;
-        background-size: 100%;
-      }
-      
-      .left-arrow { background: url('/assets/LeftArrow.svg') no-repeat center; }
-
-      .right-arrow { background: url('/assets/RightArrow.svg') no-repeat center; }
     }
   }
   
