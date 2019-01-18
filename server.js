@@ -8,7 +8,7 @@ const proxy = httpProxy.createProxyServer();
 const app = express();
 const router = express.Router();
 const path = require('path');
-const publicPath = path.resolve(__dirname, 'public');
+const publicPath = path.resolve(__dirname, 'docs');
 
 if(!isProduction) {
   const bundle = require('./server/webpackServer.js');
