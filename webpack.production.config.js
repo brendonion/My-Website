@@ -3,6 +3,7 @@ const path = require('path');
 const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 const buildPath = path.resolve(__dirname, 'docs', 'build');
 const mainPath = path.resolve(__dirname, 'src', 'index.js');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const config = {
   entry: mainPath,
@@ -12,7 +13,7 @@ const config = {
     publicPath: '/build/'
   },
   module: {
-    loaders: [{
+    rules: [{
       test: /\.jsx?$/,
       loader: 'babel-loader',
       exclude: [nodeModulesPath],
@@ -23,11 +24,11 @@ const config = {
     },
     {
       test: /\.scss|css$/,
-      loaders: ['style-loader', 'css-loader', 'sass-loader']
+      loader: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
     },
     {
       test: /\.(jpe?g|png|gif|svg)$/i,
-      loaders: [
+      loader: [
         'file-loader?name=./images/[name].[ext]',
       ]
     },
@@ -46,11 +47,12 @@ const config = {
     'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
   }
  },
-  plugins: [new Webpack.optimize.UglifyJsPlugin({
-    compress: {
-      warnings: false
-    }
-  })]
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+      chunkFilename: "[id].css"
+    })
+  ]
 };
 
 module.exports = config;
