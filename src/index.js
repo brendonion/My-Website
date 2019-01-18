@@ -6,7 +6,7 @@ import * as Routes from './constants/routes';
 
 import Routing from './Routing';
 
-import '../styles/index.scss';
+import './styles/index.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const history = createHistory();
