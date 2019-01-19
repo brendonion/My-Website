@@ -3,6 +3,7 @@ import lighthouse from '../images/LighthouseProfile.jpeg';
 import phone from '../images/Phone.svg';
 import email from '../images/Email.svg';
 import github from '../images/GitHub.png';
+
 const About = (props) => {
   return (
     <div id="about" className="section">
@@ -10,7 +11,7 @@ const About = (props) => {
         <img className="profile-pic" src={lighthouse} />
         <div className="meta-container">
           <h1>Brendan Walker</h1>
-          <h3>Web Developer</h3>
+          <h3>Full Stack Web Developer</h3>
           <p>I'm a web developer who has a passion for technology and is enthusiastic about making intuitive UI. After spending some time at my cousin's tech company and seeing all the collaboration and creativity, I knew right away that this was something I wanted to pursue. I strive every day to write cleaner and more modular code, and in doing so I discover more possibilities of the web.</p>
         </div>
       </div>

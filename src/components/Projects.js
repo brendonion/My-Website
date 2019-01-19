@@ -6,10 +6,14 @@ import revved from '../images/RevvedUp.png';
 import ball from '../images/BallEscaper.png';
 import booking from '../images/BookingLogo.png';
 import core from '../images/hCore.png';
+import laser from '../images/LaserGuy.png';
+
 export default class Projects extends React.Component {
+  
   state = {
     images: []
   }
+
   componentDidMount() {
     this.setState({
       images: [
@@ -37,7 +41,7 @@ export default class Projects extends React.Component {
         {
           image: ball,
           name: 'Ball Escaper',
-          type: 'Mobile Application',
+          type: 'Mobile Game',
           description: 'A simple game where you control a small ball with a virtual joystick and try to avoid other balls.',
           stack: 'React Native, Node.js',
         },
@@ -51,9 +55,16 @@ export default class Projects extends React.Component {
         {
           image: core,
           name: 'hCORE',
-          type: 'Web Application',
+          type: 'Web Game',
           description: 'A game where a random topic is generated and each player types a response related to that topic. Users can downvote their least favourite response to win.',
           stack: 'React, Websockets, MongoDB, Node.js',
+        },
+        {
+          image: laser,
+          name: 'Laser Guy',
+          type: 'Unity Game',
+          description: 'A classic platformer game made with the Unity engine. All the assets were made from scratch by yours truly.',
+          stack: 'Unity, C#, PyxelEdit, Bfxr (sound effects), BeepBox (music)',
         }
       ],
     })
@@ -62,36 +73,38 @@ export default class Projects extends React.Component {
   render() {
     const images = this.state.images;
     const imageGroup = images.map((image, index) => {
-      return(
-      <div key={index} className="container">
-        <div className="project-carousel">
-          <img src={image.image} />
-          <h2>{image.name}</h2>
-          <h3>{image.type}</h3>
-          <p>{image.description}</p>
-          <span>Tech Stack:</span>
-          <p>{image.stack}</p>
+      return (
+        <div key={index} className="container">
+          <div className="project-carousel">
+            <img src={image.image} />
+            <h2>{image.name}</h2>
+            <h3>{image.type}</h3>
+            <p>{image.description}</p>
+            <span>Tech Stack:</span>
+            <p>{image.stack}</p>
+          </div>
         </div>
-      </div>)
-    })
+      )
+    });
+
     return (
       <div id="projects" className="projects section">
         <h1 className="header">PROJECTS</h1>
-        {images.length > 0 && <Carousel
-          autoplay
-          wrapAround
-          dragging={true}
-          easing={'easeCubic'}
-          edgeEasing={'easeCubic'}
-          transitionMode="scroll"
-          swiping={true}
-          pauseOnHover={true}
-          speed={0.8}
-          autoplayInterval={10000}
-        >
-        {imageGroup}
-      </Carousel>}
-        
+        {images.length > 0 && 
+          <Carousel
+            autoplay
+            wrapAround
+            dragging
+            easing="easeCubic"
+            edgeEasing="easeCubic"
+            transitionMode="scroll"
+            swiping
+            pauseOnHover
+            autoplayInterval={5000}
+          >
+            {imageGroup}
+          </Carousel>
+        }
       </div>
     )
   }

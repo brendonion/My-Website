@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import github from '../images/GitHub.png';
 import email from '../images/Email.svg';
 import phone from '../images/Phone.svg';
+
 const Footer = (props) => {
   return (
     <div className="footer blue">

@@ -1,5 +1,6 @@
 import React from 'react';
 import lighthouse from '../images/LighthouseLabs.png';
+
 const Education = (props) => {
   return (
     <div id="education" className="section">
