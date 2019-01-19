@@ -29,6 +29,7 @@ class Navbar extends Component {
   }
 
   render() {
+    const dpdown = typeof document !== 'undefined' ? document.getElementById('dropdown-btn') : <div></div>
     return (
       <div className="navbar">
         <button 
@@ -37,7 +38,7 @@ class Navbar extends Component {
           onClick={() => this.handleDropdown()}
         />
         <Modal
-          button={document.getElementById('dropdown-btn')}
+          button={dpdown}
           closeModal={() => this.handleDropdown()}
           show={this.state.dropdownActive}
         >
