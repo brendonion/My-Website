@@ -44,7 +44,7 @@
     width: 50px;
     opacity: 0;
     border: none;
-    background: url('/images/Dropdown.svg') center no-repeat;
+    background: url('../images/Dropdown.svg') center no-repeat;
     background-size: 100%;
     transition: all 150ms linear;
 
@@ -58,7 +58,7 @@
   .dropdown-btn.active {
     height: 45px;
     width: 45px;
-    background: url('/images/DropdownActive.svg') center no-repeat;
+    background: url('../images/DropdownActive.svg') center no-repeat;
     background-size: 100%;
     transition: all 150ms linear;
   }

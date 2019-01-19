@@ -33,7 +33,7 @@
     height: 100%;
     min-height: 800px;
     z-index: 0;
-    background: url('/images/Typing.gif') no-repeat center;
+    background: url('../images/Typing.gif') no-repeat center;
     background-size: cover;
     @include blur(5px);
     
@@ -310,6 +310,7 @@
   .slider-control-bottomcenter {
     bottom: -50px !important;
   }
+
   .projects {
     position: relative;
     justify-content: center;
@@ -373,11 +374,14 @@
       flex-direction: column;
       padding: 0.5rem;
       width: 100%;
-      max-height: 500px;
-      min-height: 500px;
-      img {
-        max-width: 200px;
+      max-height: 450px;
+      min-height: 450px;
+
+      img { 
+        max-width: 225px; 
+        margin: 1rem auto;
       }
+
       h3, span { color: $light-font; }
       
       span { margin-top: 2rem; }
@@ -410,7 +414,7 @@
       width: 30px;
       height: 30px;
       border: none;
-      background: url('/assets/UpArrow.svg') no-repeat center;
+      background: url('../images/UpArrow.svg') no-repeat center;
       cursor: pointer;
     }
   }

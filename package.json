@@ -9,7 +9,6 @@
     "gatsby": "next",
     "gatsby-link": "next",
     "gatsby-plugin-create-client-paths": "next",
-    "gatsby-plugin-favicon": "next",
     "gatsby-plugin-google-fonts": "next",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",

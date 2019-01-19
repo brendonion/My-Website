@@ -12,7 +12,7 @@
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -24,7 +24,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -41,13 +41,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6da6d1bd58a87ed7d20e2f555dcfba21",
+        "contentDigest": "baf93c842daecdf90dde4eb36b779664",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin load-babel-config": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "Plugin load-babel-config",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -59,7 +59,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -76,13 +76,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cf8e3d6b09300cf4913862510ba3fd9a",
+        "contentDigest": "1547434c861dc35fd650f8f083f6c1fc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -95,7 +95,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -112,13 +112,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8bdb699a5f87ea2c59d9f0e404fc7c8d",
+        "contentDigest": "b27ee0dc894b1d1853cd18ee32cafd5a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -130,7 +130,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -147,13 +147,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "30559300a0bcb11f5bb5bf2902703a28",
+        "contentDigest": "da24525d1d57ba44018893b56ffb4e62",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -165,7 +165,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -182,13 +182,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fdb8ee973fb10d701162251247887567",
+        "contentDigest": "7e6c646cf156b26a7f65781592f0005f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "3.0.0-rc.1",
@@ -200,7 +200,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -260,13 +260,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8704d0cbac4fdb4d6c368cdf1e01f09e",
+        "contentDigest": "5bb692f147f0f8cc0477b910ae362b33",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-offline": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-offline",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline",
       "id": "Plugin gatsby-plugin-offline",
       "name": "gatsby-plugin-offline",
       "version": "2.0.0-rc.9",
@@ -283,7 +283,7 @@
         "onServiceWorkerActive"
       ],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-offline",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline",
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
@@ -342,13 +342,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1ad61a66b291efee6ad49fed057f82d4",
+        "contentDigest": "b2da06eee07371dc84f3e6a8a42e3544",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sass": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-sass",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-sass",
       "id": "Plugin gatsby-plugin-sass",
       "name": "gatsby-plugin-sass",
       "version": "2.0.0-rc.2",
@@ -367,7 +367,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -421,23 +421,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2e11c98a1f1e81e6be09ca05e75aa489",
+        "contentDigest": "655c25056084e837fa8350f732a86311",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website",
+      "resolve": "/Users/macbook/Projects/Web/my-website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a39bf2c6a8d90415360d08fc8bf07e7e",
+      "version": "d62e4c380e8af31311e193d6685c67fc",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website",
       "packageJson": {
         "name": "my-website",
         "description": "Brendan Walker's website",
@@ -466,10 +466,6 @@
           },
           {
             "name": "gatsby-plugin-create-client-paths",
-            "version": "next"
-          },
-          {
-            "name": "gatsby-plugin-favicon",
             "version": "next"
           },
           {
@@ -554,19 +550,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cee92b46223b09100a31e343847f05fa",
+        "contentDigest": "0d928c1bf4e6137e6cd18cf0fc02b9ad",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages",
+        "path": "/Users/macbook/Projects/Web/my-website/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -574,7 +570,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -654,7 +650,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8fdd2f707e21eb723c6c37b7297211bc",
+        "contentDigest": "3726e23c1c125bb903e0fe217cc2ce1f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -667,12 +663,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-19T01:30:16.573Z",
+      "buildTime": "2019-01-19T19:05:23.409Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "96414f769ca4a21fab2541bbbc04e2f4",
+        "contentDigest": "62a04bd8e6dea8a20dac7020449e2f93",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -681,18 +677,18 @@
       "jsonName": "offline-plugin-app-shell-fallback-a30",
       "internalComponentName": "ComponentOfflinePluginAppShellFallback",
       "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "component": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js",
       "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
       "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js",
       "id": "SitePage /offline-plugin-app-shell-fallback/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "df85e2c51229f2c0f5c8734c66373637",
+        "contentDigest": "e39e93870e65c90ada7b93867e5f418f",
         "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
@@ -701,18 +697,18 @@
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/404.js",
+      "component": "/Users/macbook/Projects/Web/my-website/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/404.js",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4be83ce49f14b433281df2ec78372d41",
+        "contentDigest": "3df3d9c5a089b84b3db70dc96396f1ce",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -721,18 +717,18 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/index.js",
+      "component": "/Users/macbook/Projects/Web/my-website/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/index.js",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "46d9241148df7e24551b36fb5126dc6c",
+        "contentDigest": "d279c7b613ffefa85793283d6c6e8f03",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -741,18 +737,18 @@
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/404.js",
+      "component": "/Users/macbook/Projects/Web/my-website/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/404.js",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "761db621ca85f4e7038e7568191c41dc",
+        "contentDigest": "cfe18317bb81644a90130b47dcfa3f6b",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -760,7 +756,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "177ce6572a2098ef0ecf597fbfd025eb"
+    "PLUGINS_HASH": "f114aee3b1de86860efa555431272e40"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -772,31 +768,32 @@
     "connections": {}
   },
   "jsonDataPaths": {
-    "sq--src-components-layout-js": 755544856,
-    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
     "sq--src-components-seo-js": 1025518380,
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js"
     },
-    "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/404.js": {
+    "/Users/macbook/Projects/Web/my-website/src/pages/404.js": {
       "query": "",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/404.js"
+      "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/404.js"
     },
-    "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/index.js": {
+    "/Users/macbook/Projects/Web/my-website/src/pages/index.js": {
       "query": "",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/pages/index.js"
+      "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/index.js"
     }
   },
   "staticQueryComponents": {
     "sq--src-components-layout-js": {
       "name": "SiteTitleQuery",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/components/layout.js",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/src/components/layout.js",
       "id": "sq--src-components-layout-js",
       "jsonName": "sq--src-components-layout-js",
       "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
@@ -804,7 +801,7 @@
     },
     "sq--src-components-seo-js": {
       "name": "DefaultSEOQuery",
-      "componentPath": "/Users/dawsonwalker/Documents/DawsonStuff/My-Website/src/components/seo.js",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/src/components/seo.js",
       "id": "sq--src-components-seo-js",
       "jsonName": "sq--src-components-seo-js",
       "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",

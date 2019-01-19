@@ -23,6 +23,7 @@ import unity from '../images/Unity.png';
 import cpp from '../images/CPP.png';
 import docker from '../images/Docker.png';
 import pxl from '../images/PyxelEdit.png';
+
 const Skills = (props) => {
   return (
     <div id="skills" className="section blue">
