@@ -663,12 +663,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-19T19:05:23.409Z",
+      "buildTime": "2019-01-19T21:08:49.525Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "62a04bd8e6dea8a20dac7020449e2f93",
+        "contentDigest": "e71a96d627b58ae950484da125696192",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -777,10 +777,6 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js"
-    },
     "/Users/macbook/Projects/Web/my-website/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/404.js"
@@ -788,6 +784,10 @@
     "/Users/macbook/Projects/Web/my-website/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/index.js"
+    },
+    "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {

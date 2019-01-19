@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 import { Link } from 'react-scroll';
 import github from '../images/GitHub.png';
 import email from '../images/Email.svg';
@@ -7,7 +8,7 @@ import phone from '../images/Phone.svg';
 const Footer = (props) => {
   return (
     <div className="footer blue">
-      <h5 className="header">Brendan Walker 2018</h5>
+      <h5 className="header">Brendan Walker {moment().year()}</h5>
       <div className="info container">
         <p className="link"><img src={phone} />250-857-2365</p>
         <p>
