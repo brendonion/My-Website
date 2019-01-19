@@ -1,5 +1,28 @@
 import React from 'react';
-
+import javascript from '../images/Javascript.png';
+import HTML from '../images/HTML.png';
+import css from '../images/CSS.png';
+import sass from '../images/Sass.png';
+import react from '../images/React.png';
+import redux from '../images/Redux.png';
+import golang from '../images/Golang.png';
+import ruby from '../images/Ruby.png';
+import rails from '../images/Rails.png';
+import postgres from '../images/Postgres.png';
+import bootstrap from '../images/Bootstrap.png';
+import express from '../images/Express.png';
+import node from '../images/Node.png';
+import typescript from '../images/Typescript.png';
+import jest from '../images/Jest.png';
+import mongo from '../images/MongoDB.png';
+import firebase from '../images/Firebase.png';
+import jQuery from '../images/jQuery.png';
+import sketch from '../images/Sketch.png';
+import graphql from '../images/GraphQL.png';
+import unity from '../images/Unity.png';
+import cpp from '../images/CPP.png';
+import docker from '../images/Docker.png';
+import pxl from '../images/PyxelEdit.png';
 const Skills = (props) => {
   return (
     <div id="skills" className="section blue">
@@ -9,47 +32,47 @@ const Skills = (props) => {
         <div className="banner">
           <div className="gradient-blur left-pos" />
           <div className="left skill container">
-            <img src="/assets/Javascript.png" />
+            <img src={javascript} />
             <p>Javascript</p>
           </div>
           <div className="skill container">
-            <img src="/assets/HTML.png" />
+            <img src={HTML} />
             <p>HTML</p>
           </div>
           <div className="skill container">
-            <img src="/assets/CSS.png" />
+            <img src={css} />
             <p>CSS</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Sass.png" />
+            <img src={sass} />
             <p>SASS</p>
           </div>
           <div className="skill container">
-            <img src="/assets/React.png" />
+            <img src={react} />
             <p>React</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Redux.png" />
+            <img src={redux} />
             <p>Redux</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Javascript.png" />
+            <img src={javascript} />
             <p>Javascript</p>
           </div>
           <div className="skill container">
-            <img src="/assets/HTML.png" />
+            <img src={HTML} />
             <p>HTML</p>
           </div>
           <div className="skill container">
-            <img src="/assets/CSS.png" />
+            <img src={css} />
             <p>CSS</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Sass.png" />
+            <img src={sass} />
             <p>SASS</p>
           </div>
           <div className="skill container">
-            <img src="/assets/React.png" />
+            <img src={react} />
             <p>React</p>
           </div>
           <div className="gradient-blur right-pos" />
@@ -58,47 +81,47 @@ const Skills = (props) => {
         <div className="banner">
           <div className="gradient-blur left-pos" />
           <div className="right skill container">
-            <img src="/assets/Golang.png" />
+            <img src={golang} />
             <p>Golang</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Ruby.png" />
+            <img src={ruby} />
             <p>Ruby</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Rails.png" />
+            <img src={rails} />
             <p>Rails</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Postgres.png" />
+            <img src={postgres} />
             <p>Postgres</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Bootstrap.png" />
+            <img src={bootstrap} />
             <p>Bootstrap</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Express.png" />
+            <img src={express} />
             <p>Express</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Golang.png" />
+            <img src={golang} />
             <p>Golang</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Ruby.png" />
+            <img src={ruby} />
             <p>Ruby</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Rails.png" />
+            <img src={rails} />
             <p>Rails</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Postgres.png" />
+            <img src={postgres} />
             <p>Postgres</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Bootstrap.png" />
+            <img src={bootstrap} />
             <p>Bootstrap</p>
           </div>
           <div className="gradient-blur right-pos" />
@@ -107,47 +130,47 @@ const Skills = (props) => {
         <div className="banner">
           <div className="gradient-blur left-pos" />
           <div className="left skill container">
-            <img src="/assets/Node.png" />
+            <img src={node} />
             <p>Node</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Typescript.png" />
+            <img src={typescript} />
             <p>Typescript</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Jest.png" />
+            <img src={jest} />
             <p>Jest</p>
           </div>
           <div className="skill container">
-            <img src="/assets/MongoDB.png" />
+            <img src={mongo} />
             <p>MongoDB</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Firebase.png" />
+            <img src={firebase} />
             <p>Firebase</p>
           </div>
           <div className="skill container">
-            <img src="/assets/jQuery.png" />
+            <img src={jQuery} />
             <p>jQuery</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Node.png" />
+            <img src={node} />
             <p>Node</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Typescript.png" />
+            <img src={typescript} />
             <p>Typescript</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Jest.png" />
+            <img src={jest} />
             <p>Jest</p>
           </div>
           <div className="skill container">
-            <img src="/assets/MongoDB.png" />
+            <img src={mongo} />
             <p>MongoDB</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Firebase.png" />
+            <img src={firebase} />
             <p>Firebase</p>
           </div>
           <div className="gradient-blur right-pos" />
@@ -156,47 +179,47 @@ const Skills = (props) => {
         <div className="banner">
           <div className="gradient-blur left-pos" />
           <div className="right skill container">
-            <img src="/assets/Sketch.png" />
+            <img src={sketch} />
             <p>Sketch</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Unity.png" />
+            <img src={unity} />
             <p>Unity</p>
           </div>
           <div className="skill container">
-            <img src="/assets/GraphQL.png" />
+            <img src={graphql} />
             <p>GraphQL</p>
           </div>
           <div className="skill container">
-            <img src="/assets/CPP.png" />
+            <img src={cpp} />
             <p>C++</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Docker.png" />
+            <img src={docker} />
             <p>Docker</p>
           </div>
           <div className="skill container">
-            <img src="/assets/PyxelEdit.png" />
+            <img src={pxl} />
             <p>PyxelEdit</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Sketch.png" />
+            <img src={sketch} />
             <p>Sketch</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Unity.png" />
+            <img src={unity} />
             <p>Unity</p>
           </div>
           <div className="skill container">
-            <img src="/assets/GraphQL.png" />
+            <img src={graphql} />
             <p>GraphQL</p>
           </div>
           <div className="skill container">
-            <img src="/assets/CPP.png" />
+            <img src={cpp} />
             <p>C++</p>
           </div>
           <div className="skill container">
-            <img src="/assets/Docker.png" />
+            <img src={docker} />
             <p>Docker</p>
           </div>
           <div className="gradient-blur right-pos" />

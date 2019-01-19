@@ -1,0 +1,95 @@
+.navbar {
+  position: fixed;
+  @include flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  height: $navbar-height;
+  background: $main-highlight;
+  z-index: 100;
+
+  .section-header {
+    @include flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include tablet { display: none; }
+
+    .link {
+      margin: 0 1rem;
+      color: white;
+      font-size: 1rem;
+      font-weight: 300;
+      border: none;
+      background: none;
+      transition: all 100ms linear;
+      cursor: pointer;
+
+      &.active {
+        color: $secondary-highlight;
+        font-size: 1.5rem;
+      }
+
+      &:hover {
+        color: $secondary-highlight;
+        transition: all 100ms linear;
+      }
+    }
+  }
+
+  .dropdown-btn {
+    display: none;
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+    border: none;
+    background: url('/images/Dropdown.svg') center no-repeat;
+    background-size: 100%;
+    transition: all 150ms linear;
+
+    @include tablet {
+      display: initial;
+      opacity: 1;
+      transition: all 100ms linear;
+    }
+  }
+
+  .dropdown-btn.active {
+    height: 45px;
+    width: 45px;
+    background: url('/images/DropdownActive.svg') center no-repeat;
+    background-size: 100%;
+    transition: all 150ms linear;
+  }
+
+  .dropdown-menu.container {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    margin: auto;
+
+    .link {
+      border: none;
+      background: none;
+      padding: 0.5rem;
+      font-size: 1rem;
+      transition: background 150ms linear;
+      color: $dark-font;
+      cursor: pointer;
+
+      &.active {
+        color: $secondary-highlight;
+      }
+
+      &:hover {
+        background: $light-grey;
+        transition: background 150ms linear;
+      }
+    }
+  }
+}

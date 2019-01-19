@@ -1,10 +1,13 @@
 import React from 'react';
-
+import lighthouse from '../images/LighthouseProfile.jpeg';
+import phone from '../images/Phone.svg';
+import email from '../images/Email.svg';
+import github from '../images/GitHub.png';
 const About = (props) => {
   return (
     <div id="about" className="section">
       <div className="profile container">
-        <img className="profile-pic" src="/assets/LighthouseProfile.jpeg" />
+        <img className="profile-pic" src={lighthouse} />
         <div className="meta-container">
           <h1>Brendan Walker</h1>
           <h3>Web Developer</h3>
@@ -12,13 +15,13 @@ const About = (props) => {
         </div>
       </div>
       <div className="info container">
-        <p className="link"><img src="/assets/Phone.svg" />250-857-2365</p>
+        <p className="link"><img src={phone} />250-857-2365</p>
         <p>
-          <img src="/assets/Email.svg" />
+          <img src={email} />
           <a href="mailto:brenny.walker@gmail.com">brenny.walker@gmail.com</a>
         </p>
         <p>
-          <img className="github" src="/assets/GitHub.png" />
+          <img className="github" src={github} />
           <a href="https://github.com/brendonion" target="_blank">brendonion</a>
         </p>
       </div>
