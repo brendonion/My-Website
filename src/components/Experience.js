@@ -1,5 +1,7 @@
 import React from 'react';
-
+import freshworks from '../images/Freshworks.png';
+import TBooth from '../images/TBooth.png';
+import cordova from '../images/CordovaBay.png';
 const Experience = (props) => {
   return (
     <div id="experience" className="section blue">
@@ -12,7 +14,7 @@ const Experience = (props) => {
             <span className="circle"></span>
             <h2>Freshworks Studio</h2>
             <h4>Junior Full Stack Web Developer</h4>
-            <img src={"/assets/Freshworks.png"} />
+            <img src={freshworks} />
           </div>
           <div className="description">
             <h3>Since May 2017</h3>
@@ -29,7 +31,7 @@ const Experience = (props) => {
             <span className="circle"></span>
             <h2>T-booth Wireless</h2>
             <h4>Sales Associate</h4>
-            <img src={"/assets/TBooth.png"} />
+            <img src={TBooth} />
           </div>
           <div className="description">
             <h3>July 2016 - March 2017</h3>
@@ -45,7 +47,7 @@ const Experience = (props) => {
             <span className="circle"></span>
             <h2>Cordova Bay Golf</h2>
             <h4>Groundskeeper</h4>
-            <img src={"/assets/CordovaBay.png"} />
+            <img src={cordova} />
           </div>
           <div className="description">
             <h3>May 2013 - August 2015</h3>

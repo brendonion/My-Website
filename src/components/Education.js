@@ -1,5 +1,5 @@
 import React from 'react';
-
+import lighthouse from '../images/LighthouseLabs.png';
 const Education = (props) => {
   return (
     <div id="education" className="section">
@@ -12,7 +12,7 @@ const Education = (props) => {
             <span className="circle"></span>
             <h2>Lighthouse Labs</h2>
             <h4>Web Development Bootcamp</h4>
-            <img src={"/assets/LighthouseLabs.png"} />
+            <img src={lighthouse} />
           </div>
           <div className="description">
             <h3>March 2017 - May 2017</h3>

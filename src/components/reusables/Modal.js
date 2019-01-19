@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import { CSSTransitionGroup } from 'react-transition-group';
+import React from 'react';
+import {CSSTransitionGroup} from 'react-transition-group';
 
-class Modal extends Component {
-  constructor(props) {
-    super(props);
-    this.setWrapperRef = this.setWrapperRef.bind(this);           
-    this.handleClickOutside = this.handleClickOutside.bind(this);
+let modalTimeout = 200;
+export default class Modal extends React.Component {
+
+  componentDidMount() {
+    document.addEventListener('mousedown', this.handleClickOutside);
   }
 
   componentWillUnmount() {
     document.removeEventListener('mousedown', this.handleClickOutside);
   }
 
-  setWrapperRef(node) {
+  setWrapperRef = (node) => {
     this.wrapperRef = node;
   }
 
-  handleClickOutside(event) {
+  handleClickOutside = (event) => {
     if (this.wrapperRef && !this.wrapperRef.contains(event.target) && event.target != this.props.button) {
       this.props.closeModal();
       document.removeEventListener('mousedown', this.handleClickOutside);
@@ -24,8 +24,7 @@ class Modal extends Component {
   }
 
   render() {
-    document.addEventListener('mousedown', this.handleClickOutside);
-    const modalTimeout = 200;
+    
     return (
       <CSSTransitionGroup
         transitionName="modal"
@@ -41,4 +40,3 @@ class Modal extends Component {
   }
 }
 
-export default Modal
