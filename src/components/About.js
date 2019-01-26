@@ -1,6 +1,6 @@
 import React from 'react';
 import lighthouse from '../images/LighthouseProfile.jpeg';
-import phone from '../images/Phone.svg';
+import linkedin from '../images/Linkedin.svg';
 import email from '../images/Email.svg';
 import github from '../images/GitHub.png';
 
@@ -16,14 +16,17 @@ const About = (props) => {
         </div>
       </div>
       <div className="info container">
-        <p className="link"><img src={phone} />250-857-2365</p>
+        <p className="link">
+          <img src={linkedin} />
+          <a href="https://www.linkedin.com/in/brendan-walker-0a728713b/" target="_blank">LinkedIn</a>
+        </p>
         <p>
           <img src={email} />
-          <a href="mailto:brenny.walker@gmail.com">brenny.walker@gmail.com</a>
+          <a href={"mailto:brenny.walker@gmail.com"}>Email</a>
         </p>
         <p>
           <img className="github" src={github} />
-          <a href="https://github.com/brendonion" target="_blank">brendonion</a>
+          <a href="https://github.com/brendonion" target="_blank" rel="noopener noreferrer">Github</a>
         </p>
       </div>
     </div>

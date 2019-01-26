@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/macbook/Projects/Web/my-website/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "7f0f2922bdab9ece580d58e8e5334cfc",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -661,35 +670,17 @@
         "description": "Brendan Walker",
         "author": "@brendonion"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-19T21:08:49.525Z",
+      "buildTime": "2019-01-26T02:30:49.467Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e71a96d627b58ae950484da125696192",
+        "contentDigest": "d6b0899af6ae989ab164a5594a833718",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e39e93870e65c90ada7b93867e5f418f",
-        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -785,9 +776,9 @@
       "query": "",
       "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/index.js"
     },
-    "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/Users/macbook/Projects/Web/my-website/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/Users/macbook/Projects/Web/my-website/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
