@@ -430,7 +430,7 @@
       "resolve": "/Users/macbook/Projects/Web/my-website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d62e4c380e8af31311e193d6685c67fc",
+      "version": "c8dd3d4ef815450455e88c86de432c14",
       "pluginOptions": {
         "plugins": []
       },
@@ -550,7 +550,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0d928c1bf4e6137e6cd18cf0fc02b9ad",
+        "contentDigest": "d5059b66e79368344c048ffb036e608b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -657,18 +657,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Brendan Walker",
-        "description": "Brendan Walker",
+        "title": "Full Stack Web Developer",
+        "description": "Full Stack Web Developer for the modern age",
         "author": "@brendonion"
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-27T00:25:48.486Z",
+      "buildTime": "2019-04-03T02:28:46.617Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8365365fa17a4868c3d3d1a58db81762",
+        "contentDigest": "007a386a6318be379a6cf2de47dec5d5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -756,7 +756,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f114aee3b1de86860efa555431272e40"
+    "PLUGINS_HASH": "7311048c99301087feba13198f99b980"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -777,6 +777,10 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js"
+    },
     "/Users/macbook/Projects/Web/my-website/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/404.js"
@@ -784,10 +788,6 @@
     "/Users/macbook/Projects/Web/my-website/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/macbook/Projects/Web/my-website/src/pages/index.js"
-    },
-    "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {

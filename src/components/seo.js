@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-//So basically a component for your SEO ie you just go like <SEO description="blah" lang="en" keywords="tags, more tags, stuff" title="mysite"/> 
+import favicon from '../images/favicon.png';
+
 function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
@@ -17,6 +18,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             }}
             title={title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            links={[{rel: 'shortcut icon', type: 'image/png', href: `${favicon}`}]}
             meta={[
               {
                 name: 'description',

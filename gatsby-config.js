@@ -3,8 +3,8 @@ const path = require(`path`)
 module.exports = {
   pathPrefix: "/", //Change if adding CNAME
   siteMetadata: {
-    title: 'Brendan Walker',
-    description: 'Brendan Walker',
+    title: 'Full Stack Web Developer',
+    description: 'Full Stack Web Developer for the modern age',
     author: '@brendonion',
   },
   plugins: [
