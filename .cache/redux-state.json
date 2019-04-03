@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/macbook/Projects/Web/my-website/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/macbook/Projects/Web/my-website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7f0f2922bdab9ece580d58e8e5334cfc",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -439,7 +430,7 @@
       "resolve": "/Users/macbook/Projects/Web/my-website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "53b0bf19fc121947e14988191274ecf6",
+      "version": "c8dd3d4ef815450455e88c86de432c14",
       "pluginOptions": {
         "plugins": []
       },
@@ -559,7 +550,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "da146729c6f554058de954c0e1319309",
+        "contentDigest": "d5059b66e79368344c048ffb036e608b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -670,16 +661,35 @@
         "description": "Full Stack Web Developer for the modern age",
         "author": "@brendonion"
       },
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "/",
-      "buildTime": "2019-04-03T02:10:47.462Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-03T02:28:46.617Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f6c521408dc5d7bd707b986281cd816b",
+        "contentDigest": "007a386a6318be379a6cf2de47dec5d5",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e39e93870e65c90ada7b93867e5f418f",
+        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -746,7 +756,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "5e768bf4305c533e9e7592a562114d6d"
+    "PLUGINS_HASH": "7311048c99301087feba13198f99b980"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -767,9 +777,9 @@
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/macbook/Projects/Web/my-website/.cache/dev-404-page.js": {
+    "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "/Users/macbook/Projects/Web/my-website/.cache/dev-404-page.js"
+      "componentPath": "/Users/macbook/Projects/Web/my-website/node_modules/gatsby-plugin-offline/app-shell.js"
     },
     "/Users/macbook/Projects/Web/my-website/src/pages/404.js": {
       "query": "",
